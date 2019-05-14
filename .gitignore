@@ -1,0 +1,9 @@
+.DS_Store
+.env
+.vscode
+*.log*
+build/
+coverage/
+cypress.env.json
+cypress/
+node_modules/
