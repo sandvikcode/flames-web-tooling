@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "eslint test && prettier test"
+    "test": "eslint test && prettier -c test/**"
   },
   "repository": {
     "type": "git",
