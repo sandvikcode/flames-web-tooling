@@ -4,7 +4,7 @@ Basic tooling configuration for web projects
 
 # Setup
 
-Install this dependency as a devDependency
+Install this dependency as a devDependency, don't install any eslint or prettier dependencies directly in your project.
 
 Create a file `.prettierrc.js` in the root of the project with the contents:
 
@@ -22,8 +22,8 @@ In `package.json` add:
 
 ```js
 {
-  "dependencies": {
-    "flames-web-tooling": "",
+  "devDependencies": {
+    "flames-web-tooling": "git+ssh://git@github.com:sandvikcode/flames-web-tooling.git#VERSION_TAG",
     ...
   },
   "husky": {
