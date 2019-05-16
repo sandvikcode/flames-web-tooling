@@ -23,7 +23,7 @@ In `package.json` add:
 ```js
 {
   "devDependencies": {
-    "flames-web-tooling": "git+ssh://git@github.com:sandvikcode/flames-web-tooling.git#VERSION_TAG",
+    "@sandvikcode/flames-web-tooling": "git+https://github.com/sandvikcode/flames-web-tooling.git#v1.0.0",
     ...
   },
   "husky": {
