@@ -37,6 +37,7 @@ module.exports = {
     'no-await-in-loop': 'error',
     'no-caller': 'error',
     'no-case-declarations': 'off',
+    'no-console': ['error', { allow: ['warn', 'error'] }],
     'no-div-regex': 'error',
     'no-duplicate-imports': 'error',
     'no-else-return': 'error',
