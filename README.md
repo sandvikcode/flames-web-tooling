@@ -1,21 +1,19 @@
 # flames-web-tooling
 
-Basic tooling configuration for web projects
+Basic tooling configuration for web projects.
 
 # Setup
 
-Install this dependency as a devDependency, don't install any eslint or prettier dependencies directly in your project.
-
-Create a file `.prettierrc.js` in the root of the project with the contents:
+Create a `.prettierrc.js` file in the root of the project with the following contents:
 
 ```js
-module.exports = require('flames-web-tooling').prettier;
+module.exports = require('@sandvikcode/flames-web-tooling').prettier;
 ```
 
-Create a file `.eslintrc.js` in the root of the project with the contents:
+Create a `.eslintrc.js` file in the root of the project with the following contents:
 
 ```js
-module.exports = require('flames-web-tooling').eslint;
+module.exports = require('@sandvikcode/flames-web-tooling').eslint;
 ```
 
 In `package.json` add:
@@ -23,8 +21,7 @@ In `package.json` add:
 ```js
 {
   "devDependencies": {
-    "@sandvikcode/flames-web-tooling": "git+https://github.com/sandvikcode/flames-web-tooling.git#v1.0.0",
-    ...
+    "@sandvikcode/flames-js-tooling": "https://github.com/sandvikcode/flames-web-tooling/archive/vX.X.X.tar.gz"
   },
   "husky": {
     "hooks": {
@@ -44,3 +41,5 @@ In `package.json` add:
   }
 }
 ```
+
+Run `yarn` or `npm install` and install this dependency as a devDependency, don't install any ESLint or Prettier dependencies directly in your project.

@@ -1,7 +1,7 @@
 {
   "name": "@sandvikcode/flames-web-tooling",
   "version": "1.2.1",
-  "description": "",
+  "private": true,
   "main": "index.js",
   "scripts": {
     "test": "eslint test && prettier -c test/**"
@@ -10,12 +10,6 @@
     "type": "git",
     "url": "git+https://github.com/sandvikcode/flames-web-tooling.git"
   },
-  "author": "",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/sandvikcode/flames-web-tooling/issues"
-  },
-  "homepage": "https://github.com/sandvikcode/flames-web-tooling#readme",
   "dependencies": {
     "eslint": "5.16.0",
     "eslint-config-prettier": "4.1.0",
