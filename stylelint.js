@@ -17,7 +17,7 @@ module.exports = {
       'font-family': ['/Suisse/'],
     },
     'font-family-name-quotes': 'always-where-recommended',
-    'font-family-no-missing-generic-family-keyword': null,
+    'font-family-no-missing-generic-family-keyword': true,
     'function-url-no-scheme-relative': true,
     'length-zero-no-unit': true,
     'media-feature-name-no-vendor-prefix': true,
