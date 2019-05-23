@@ -4,6 +4,7 @@
   "private": true,
   "main": "index.js",
   "scripts": {
+    "format": "prettier --write '**/*.{css,html,js,json,md,yaml}'",
     "test": "eslint test && stylelint test && prettier -c test/**"
   },
   "repository": {
