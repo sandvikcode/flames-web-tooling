@@ -4,7 +4,7 @@
   "private": true,
   "main": "index.js",
   "scripts": {
-    "test": "eslint test && prettier -c test/**"
+    "test": "eslint test && stylelint test && prettier -c test/**"
   },
   "repository": {
     "type": "git",
@@ -21,7 +21,13 @@
     "eslint-plugin-react-hooks": "1.6.0",
     "husky": "2.3.0",
     "lint-staged": "8.1.7",
-    "prettier": "1.17.1"
+    "prettier": "1.17.1",
+    "stylelint": "10.0.1",
+    "stylelint-config-prettier": "5.2.0",
+    "stylelint-config-recommended": "2.2.0",
+    "stylelint-order": "3.0.0",
+    "stylelint-prettier": "1.1.0",
+    "stylelint-value-no-unknown-custom-properties": "2.0.0"
   },
   "husky": {
     "hooks": {
