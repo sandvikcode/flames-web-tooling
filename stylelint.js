@@ -21,7 +21,6 @@ module.exports = {
     'function-url-no-scheme-relative': true,
     'length-zero-no-unit': true,
     'media-feature-name-no-vendor-prefix': true,
-    'no-descending-specificity': null,
     'no-unknown-animations': true,
     'order/order': ['custom-properties', 'declarations', 'rules', 'at-rules'],
     'order/properties-alphabetical-order': true,
