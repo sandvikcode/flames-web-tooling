@@ -12,7 +12,7 @@ module.exports = {
     ],
     'color-no-hex': true,
     'declaration-block-no-redundant-longhand-properties': true,
-    'declaration-no-important': null,
+    'declaration-no-important': [true, { severity: 'warning' }],
     'declaration-property-value-blacklist': {
       'font-family': ['/Suisse/'],
     },
