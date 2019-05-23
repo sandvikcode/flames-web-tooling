@@ -2,7 +2,6 @@
 module.exports = {
   env: {
     browser: true,
-    'cypress/globals': true,
     es6: true,
     jest: true,
     node: true,
@@ -17,7 +16,7 @@ module.exports = {
   parserOptions: {
     ecmaVersion: 2018,
   },
-  plugins: ['cypress', 'import', 'import-helpers', 'react-hooks', 'prettier'],
+  plugins: ['import', 'import-helpers', 'react-hooks', 'prettier'],
   settings: {
     react: {
       version: 'detect',
