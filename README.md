@@ -31,7 +31,7 @@ In `package.json` add:
     "lint": "eslint --ignore-path .gitignore . && stylelint 'src/**/*.css'",
   },
   "devDependencies": {
-    "@sandvikcode/flames-js-tooling": "https://github.com/sandvikcode/flames-web-tooling/archive/vX.X.X.tar.gz"
+    "@sandvikcode/flames-web-tooling": "https://github.com/sandvikcode/flames-web-tooling/archive/vX.X.X.tar.gz"
   },
   "husky": {
     "hooks": {
