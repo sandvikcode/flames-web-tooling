@@ -1,6 +1,10 @@
-const eslintConf = require('./eslint');
+const config = require('./eslint');
 
-// this project does not use react, this removes the annoying warnings from the tests
-eslintConf.settings.react.version = '999.999.999';
+config.env.node = true;
 
-module.exports = eslintConf;
+// This project does not use React, remove the annoying warnings from the tests.
+config.settings.react.version = '999.999.999';
+
+config.rules['import/no-commonjs'] = 'off';
+
+module.exports = config;

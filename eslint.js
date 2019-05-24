@@ -1,11 +1,8 @@
-/* eslint-disable import/no-commonjs */
 module.exports = {
   env: {
     browser: true,
-    'cypress/globals': true,
     es6: true,
     jest: true,
-    node: true,
   },
   extends: [
     'eslint:recommended',
@@ -17,7 +14,7 @@ module.exports = {
   parserOptions: {
     ecmaVersion: 2018,
   },
-  plugins: ['cypress', 'import', 'import-helpers', 'react-hooks', 'prettier'],
+  plugins: ['import', 'import-helpers', 'react-hooks', 'prettier'],
   settings: {
     react: {
       version: 'detect',
@@ -46,8 +43,8 @@ module.exports = {
     'no-extend-native': 'error',
     'no-implicit-coercion': 'error',
     'no-implied-eval': 'error',
-    'no-loop-func': 'error',
     'no-lonely-if': 'error',
+    'no-loop-func': 'error',
     'no-multi-str': 'error',
     'no-negated-condition': 'error',
     'no-new': 'error',
@@ -107,8 +104,8 @@ module.exports = {
     'import-helpers/order-imports': [
       'warn',
       {
-        'newlines-between': 'never',
         alphabetize: { order: 'asc' },
+        'newlines-between': 'never',
       },
     ],
     'react/default-props-match-prop-types': 'error',
@@ -122,18 +119,18 @@ module.exports = {
     'react/jsx-fragments': ['error'],
     'react/jsx-pascal-case': 'error',
     'react/jsx-sort-default-props': 'error',
+    'react/jsx-sort-props': 'error',
     'react/no-danger': 'error',
     'react/no-this-in-sfc': 'error',
     'react/no-typos': 'error',
     'react/no-unused-prop-types': 'error',
     'react/no-unused-state': 'error',
-    'react/jsx-sort-props': 'error',
     'react/prefer-es6-class': 'error',
     'react/prefer-stateless-function': 'error',
     'react/prop-types': 'warn',
     'react/sort-prop-types': 'error',
     'react/void-dom-elements-no-children': 'error',
-    'react-hooks/rules-of-hooks': 'error',
     'react-hooks/exhaustive-deps': 'error',
+    'react-hooks/rules-of-hooks': 'error',
   },
 };
